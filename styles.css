@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(91, 36, 136);
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    border: black 5px solid;
+    padding: 10px;
+    background: black;
+    border-radius: 20px;
+    margin: 0
+}
+
+img {
+    border-radius: 40px;
+    height: 150px;
+}
+
+h4 {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: black 5px solid;
+    padding: 10px;
+    background: black;
+    border-radius: 20px;
+}
+
+.uno {
+    top: 10%;
+    left: 7%;
+}
+
+.dos {
+    top: 9%;
+    right: 13%;
+}
+
+.tres {
+    bottom: 9%;
+    left: 9%;
+}
+
+.cuatro {
+    bottom: 7%;
+    right: 10%;
+}
