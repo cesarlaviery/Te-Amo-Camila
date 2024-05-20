@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
 h1 {
     color: white;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 2rem;
     border: black 5px solid;
     padding: 10px;
     background: black;
@@ -24,14 +24,14 @@ h1 {
 
 img {
     border-radius: 40px;
-    height: 150px;
+    height: 140px;
 }
 
 h4 {
     position: absolute;
     color: white;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border: black 5px solid;
     padding: 10px;
     background: black;
@@ -39,21 +39,60 @@ h4 {
 }
 
 .uno {
-    top: 10%;
+    top: 12%;
     left: 7%;
 }
 
 .dos {
     top: 9%;
-    right: 13%;
+    right: 10%;
 }
 
 .tres {
-    bottom: 9%;
-    left: 9%;
+    bottom: 12%;
+    left: 7%;
 }
 
 .cuatro {
     bottom: 7%;
-    right: 10%;
+    right: 7%;
+}
+
+@media (min-width: 825px){
+
+    body {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .uno {
+        top: 10%;
+        left: 7%;
+    }
+    
+    .dos {
+        top: 9%;
+        right: 13%;
+    }
+    
+    .tres {
+        bottom: 9%;
+        left: 9%;
+    }
+    
+    .cuatro {
+        bottom: 7%;
+        right: 10%;
+    }
 }
